@@ -20,3 +20,56 @@ console.log(lattePrice + mochaPrice);
 console.log(espressoPrice + lattePrice * 4 + mochaPrice * 2);
 console.log(lattePrice * 3);
 
+
+// 함수 선언
+function greetings() {
+    console.log('Hi');
+    console.log('안녕');
+    console.log('こんにちは');
+    console.log('你好');
+    console.log('Guten Tag');
+    console.log('Bonjour');
+    console.log('Buongiorno');
+};
+
+//함수 호출
+greetings();
+
+// 함수 선언
+function greetings(sentence) {
+    console.log('Hi');
+    console.log('안녕');
+    console.log('こんにちは');
+    console.log('你好');
+    console.log('Guten Tag');
+    console.log('Bonjour');
+    console.log('Buongiorno');
+    console.log(sentence);
+};
+
+//함수 호출
+greetings('hola');
+
+
+function welcome (name) {
+    console.log('안녕하세요 ' + name + '님!')
+}
+
+welcome('전다운');
+welcome('홍길동');
+welcome('아무개');
+
+
+function printSquare(x) {
+    console.log(x*x);
+}
+
+printSquare(4);
+printSquare(2);
+printSquare(16);
+
+function printSum(a,b) {
+    console.log(a+b);
+}
+
+printSum(5, 15);
