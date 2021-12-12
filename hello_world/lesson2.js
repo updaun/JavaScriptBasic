@@ -32,3 +32,23 @@ console.log(3!==3);
 console.log('javascript'==='javascript');
 
 console.log(true&&true);
+
+
+// typeof 연산자
+console.log(typeof 101);
+console.log(typeof 'hello');
+console.log(typeof true);
+
+let name = 'updaun'
+function sayHello() {
+    console.log('Hello');
+};
+
+console.log(typeof name);
+console.log(typeof sayHello);
+
+console.log(typeof 'Hello'+'updaun');
+console.log(typeof 8-3);
+
+console.log(typeof ('Hello'+'updaun'));
+console.log(typeof (8-3));
