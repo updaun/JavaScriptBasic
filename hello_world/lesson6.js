@@ -84,3 +84,34 @@ console.log(brands.includes('Daum'));
 console.log(brands);
 brands.reverse();
 console.log(brands);
+
+
+// for ... of 
+let influencer = ['aaaa', 'bbbb', 'cccc', 'dddd'];
+
+// length를 활용한 반복문
+for (let i = 0; i < influencer.length; i++){
+    console.log(influencer[i]);
+}
+
+/*
+for (변수 of 배열) {
+    동작부분;
+}
+*/
+
+for (let element of influencer) {
+    console.log(element);
+}
+
+// 배열도 하나의 객체이므로 for in 문이 사용 가능하지만
+// 객체 내에 length 등 다른 값이 할당 될 수 있기 때문에
+// 배열에서 사용하지 않는 것을 권장한다. 
+for (let index in influencer) {
+    console.log(influencer[index]);
+}
+
+// 다차원 배열
+let twoDimensional = [[1,2],[3,4]];
+
+console.log(twoDimensional[0][1]);  // 2
