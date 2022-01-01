@@ -303,3 +303,49 @@ study10.prerequisite.push('opencv');
 
 console.log(study9);
 console.log(study10);
+
+
+// 변수와 상수
+var myVariable = 'updaun';
+console.log(myVariable);
+var myVariable = 'Updaun!';
+console.log(myVariable);
+
+/* scope
+{
+    let x = 3;
+  }
+  
+  function myFunction() {
+    let y = 4;
+  }
+  
+console.log(x);  // Uncaught ReferenceError: x is not defined
+console.log(y);
+
+
+{
+    var x = 3;
+  }
+  
+  function myFunction() {
+    var y = 4;
+  }
+  
+console.log(x);  // 3
+console.log(y);  // Uncaught ReferenceError: y is not defined
+*/
+
+// 끌어올림 (Hoisting)
+// console.log(myTestVariable);  // Uncaught ReferenceError: Cannot access 'myTestVariable' before initialization
+// let myTestVariable;
+
+console.log(myTestVariable2); // undefined
+var myTestVariable2;
+
+
+sayHi();
+
+function sayHi() {
+  console.log('hi');
+}
